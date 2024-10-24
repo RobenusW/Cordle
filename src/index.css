@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'NYTFranklin';
+  src: url('../../franklin-normal-600.ttf'); 
+}
+
+@font-face {
+  font-family: 'Karnak';
+  src: url('../../karnak-small-normal-400.ttf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

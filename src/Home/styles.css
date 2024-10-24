@@ -1,0 +1,71 @@
+.wd-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.wd-resize-image {
+    width: 20%;
+    height: auto;
+}
+
+
+.wd-button {
+    height: 3em;
+    justify-content: center;
+    border-radius: 1.5em;
+    width: 155px;
+    letter-spacing: .05em;
+    font-size: 16px;
+    background: black;
+    color: white;
+    border: black;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.wd-subtitle {
+    position: relative;
+    top: 25px;
+    font-size: 180%;
+    font-family: 'NYTFranklin';
+}
+
+#wd-date {
+    font-family: 'NYTFranklin'; ;
+    font-size: 16px;
+}
+
+#wd-days
+#wd-edited-by {
+    font-size: 14px;
+    font-family: 'Clear-sans', 'Helvetica-Neue', sans-serif;
+}
+
+@media (min-width: 620px) {
+    .wd-subtitle {
+        bottom: 70px;
+    }
+}
+
+@media (min-width: 820px) {
+    .wd-subtitle {
+        bottom: 80px;
+    }
+}
+
+@media (min-width: 990px) {
+    .wd-subtitle {
+        bottom: 95px;
+    }
+}
+
+.wd-bottom-fouth-welcome {
+    position: relative;
+    top: 90px;
+}
+
